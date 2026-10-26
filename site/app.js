@@ -31,7 +31,7 @@ if (!reduced) start();
 // ---------------------------------------------------------------------------
 
 async function start() {
-  const manifest = await (await fetch('frames/manifest.json')).json();
+  const manifest = await (await fetch('frames/manifest.json', { cache: 'no-cache' })).json();
   const count = manifest.count;
   const clips = manifest.clips;
   // Junction frames: hold i rests on the frame where clip i-1 ends / clip i starts.
@@ -72,7 +72,9 @@ async function start() {
   function pickSet() {
     return innerWidth / innerHeight < 0.8 ? 'm' : 'd';
   }
-  const src = (i) => `frames/${set}/${String(i + 1).padStart(4, '0')}.webp`;
+  // version busts browser caches of frames that keep their names across rebuilds.
+  const v = manifest.version ? `?v=${manifest.version}` : '';
+  const src = (i) => `frames/${set}/${String(i + 1).padStart(4, '0')}.webp${v}`;
 
   function nextToLoad() {
     for (let d = 0; d < count; d++) {
