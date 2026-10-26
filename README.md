@@ -1,6 +1,6 @@
 # Ichigo: Every Form, One Shot
 
-A scroll-driven fan tribute to Bleach, released on October 26, 2026, the day the anime ends after 22 years. Nine of Ichigo Kurosaki's forms, from Zangetsu to Blood Chains, are joined into one unbroken shot that plays as you scroll.
+A scroll-driven fan tribute to Bleach, released on October 26, 2026, the day the anime ends after 22 years. Nine of Ichigo Kurosaki's forms, from Zangetsu to True Tensa Zangetsu, are joined into one unbroken shot that plays as you scroll.
 
 Unofficial and non-commercial. Bleach and all of its characters are © Tite Kubo / Shueisha. Every image and frame is AI-generated fan art.
 
