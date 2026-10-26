@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>__SITE_URL__/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <image:image><image:loc>__SITE_URL__/img/og.jpg</image:loc></image:image>
+    <image:image><image:loc>__SITE_URL__/img/k1-shikai.webp</image:loc></image:image>
+    <image:image><image:loc>__SITE_URL__/img/k2-tensa.webp</image:loc></image:image>
+    <image:image><image:loc>__SITE_URL__/img/k3-mask.webp</image:loc></image:image>
+    <image:image><image:loc>__SITE_URL__/img/k4-full-hollow.webp</image:loc></image:image>
+    <image:image><image:loc>__SITE_URL__/img/k5-final-getsuga.webp</image:loc></image:image>
+    <image:image><image:loc>__SITE_URL__/img/k6-fullbring.webp</image:loc></image:image>
+    <image:image><image:loc>__SITE_URL__/img/k7-true-shikai.webp</image:loc></image:image>
+    <image:image><image:loc>__SITE_URL__/img/k8-true-bankai.webp</image:loc></image:image>
+    <image:image><image:loc>__SITE_URL__/img/k9-blood-chains.webp</image:loc></image:image>
+  </url>
+</urlset>
